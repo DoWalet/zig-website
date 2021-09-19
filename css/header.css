@@ -36,3 +36,9 @@
 .menu > ul > li:hover {
     color: lightblue;
 }
+.content {
+    width: 1000px;
+    min-height: 500px;
+    float: left;
+    margin: 15px 0px 0px calc((100vw - 1000px) / 2);
+}

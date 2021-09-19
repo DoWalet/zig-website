@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/markdown.css">
     <link rel="stylesheet" href="./css/header.css">
     <title>Hello Zig</title>
 </head>
+
 <body>
     <div class="menu">
         <div class="logo">ZigUI</div>
         <ul>
-           <li>Learn</li>
-           <li>Theme</li>
-           <li>Team</li>
-           <li>Donation</li>
+            <li>Learn</li>
+            <li>Download</li>
+            <li>Theme</li>
+            <li>Team</li>
+            <li>Donation</li>
         </ul>
     </div>
+
+    <div class="content" id="content">
+        
+    </div>
+
+    <script src="./js/marked.js"></script>
+    <script src="./js/markdown.js"></script>
+    <script>
+        document.querySelector('#content').innerHTML = marked('# Hello')
+        console.log(marked('# Hello'));
+    </script>
 </body>
+
 </html>
