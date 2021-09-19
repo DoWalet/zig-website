@@ -26,4 +26,9 @@
     list-style: none;
     color: #ffffff;
     cursor: pointer;
+    user-select: none;
+    transition: color .15s linear;
+}
+.menu > ul > li:hover {
+    color: lightblue;
 }
