@@ -1,0 +1,29 @@
+.menu {
+    width: 100%;
+    height: 44px;
+    background-color: #3e3e3e;
+}
+.menu > .logo {
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0px 0px 0px 168px;
+    user-select: none;
+    float: left;
+    padding: 0px 15px 0px 15px;
+}
+.menu > ul {
+    height: 44px;
+    line-height: 44px;
+    float: right;
+    padding: 0px;
+    margin: 0px 168px 0px 0px;
+}
+.menu > ul > li {
+    padding: 0px 15px 0px 15px;
+    float: left;
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+}
